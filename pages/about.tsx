@@ -1,6 +1,6 @@
 // Client side rendering
 
-import Header from '@/components/common/header';
+import { Header } from '@/components/common/header';
 import { AdminLayout, MainLayout } from '@/components/layout';
 import { Box, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
