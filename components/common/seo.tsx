@@ -16,7 +16,7 @@ export default function Seo({ data }: SeoProps) {
   return (
     <Head>
       {/* <!-- Primary Meta Tags --> */}
-      <title>Meta Tags — Preview, Edit and Generate</title>
+      <title>{title}</title>
       <meta name="title" content={title} />
       <meta name="description" content={description} />
 
